@@ -5,9 +5,7 @@ int rear=-1,front=0;
 void insert();
 void delete();
 void display();
-
 void main(){ int choice;
-    
     do{
     printf("-------QUEUE--------\n");
     printf("\n 1.insert\n 2.delete\n 3.display\n 4.exit\n");
@@ -56,6 +54,7 @@ void display(){
         }
     }
 }
+
 
 
 
